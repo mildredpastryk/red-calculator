@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Red Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+
+  <body>
+
+    <div id="calculator">
+
+        <div class="result">
+          <input type="text" readonly id="screen">
+        </div>
+
+        <div id="keys">
+           <input type="button"  class="button" value="7" onclick='math("7")'>
+           <input type="button"  class="button" value="8" onclick='math("8")'>
+           <input type="button"  class="button" value="9" onclick='math("9")'>
+           <input type="button"  class="button" value="/" onclick='math("/")'>
+           <input type="button"  class="button" value="4" onclick='math("4")'>
+           <input type="button"  class="button" value="5" onclick='math("5")'>
+           <input type="button"  class="button" value="6" onclick='math("6")'>
+           <input type="button"  class="button" value="*" onclick='math("*")'>
+           <input type="button"  class="button" value="1" onclick='math("1")'>
+           <input type="button"  class="button" value="2" onclick='math("2")'>
+           <input type="button"  class="button" value="3" onclick='math("3")'>
+           <input type="button"  class="button" value="-" onclick='math("-")'>
+           <input type="button"  class="button" value="0" onclick='math("0")'>
+           <input type="button"  class="button" value="C" onclick='c("")'>
+           <input type="button"  class="button" value="=" onclick='e()'>
+           <input type="button"  class="button" value="+" onclick='math("+")'>
+          </div>
+
+    </div><!--end calculator-->
+
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
